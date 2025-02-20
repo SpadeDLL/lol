@@ -1,0 +1,290 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/remixicon.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style55.css" type="text/css">
+    <link rel="stylesheet" href="css/toast.css" type="text/css">
+    <link rel="stylesheet" href="css/snow.css" type="text/css">
+    <link href="css/all.css" rel="stylesheet" type="text/css">
+    <script src="js/api.js"></script>
+    <script src="js/embed.js"></script>
+    <script src="js/toast.js" type="text/javascript"></script>
+    <title>Nexus-Tools</title>
+    <meta name="author" content="Nexus">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Nexus Tools Official Website">
+    <meta property="og:title" content="Nexus Tools">
+    <meta property="og:url" content="https://discord.gg/nexustools">
+    <meta property="og:description" content="Nexus Tools Highest quality Tools.">
+    <meta property="og:image" content="images/header.png">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+</head> 
+ 
+<body><dy>
+    <div class="scrollbar-container">
+        <div class="scrollbar-thumb"></div>
+    </div>
+    <nav>
+        <div class="nav-logo">
+            <div class="logo">
+                <a href="https://discord.gg/nexustools">
+                    <img src="images/logo.png">
+                </a>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li class="link"><a href="#home">Home</a></li>
+            <li id="link1" class="link"><a href="#pricing">Pricing</a></li>
+            <li id="link2" class="link"><a href="#About">About</a></li>
+            <li id="link2" class="link"><a href="https://www.xyliase.com/" target="_blank">Our Partner</a></li>
+        </ul>
+        <a class="btn" href="https://discord.gg/nexustools">Nexus Discord</a>
+    </nav>
+    <header id="home" class="container">
+        <div class="content">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <h1>Welcome to <span>Nexus</span></h1>
+            <p>The highest quality tools</p>
+            <button class="btn" href="#pricing" onclick="window.location.href='#pricing'"><i class="fi fi-rr-rocket-lunch"></i> Get Started </button>
+        </div>
+        <div class="image">
+            <img src="images/header.png">
+        </div>
+    </header>
+    <section id="pricing" class="container">
+        <h2 class="header">OUR PRODUCTS</h2>
+        <p class="sub-header">Choose your product.</p>
+        <div class="pricing">
+            <div class="card">
+                <div class="content">
+                    <h4>Nexus Raider V2.0</h4>
+                    <h3 id="price_raider">20,00€</h3>
+                    <p><i class="ri-checkbox-circle-line"></i> Windows 10 & 11</p>
+                    <p><i class="ri-checkbox-circle-line"></i> High-Quality Raider</p>
+                    <p><i class="ri-checkbox-circle-line"></i> See Discord for more details</p>
+                </div>
+                <select id="licenseSelect_raider">
+                    <option value="" disabled="" selected="">Choose option</option>
+                    <option value="raider_license" data-productid="220633" ,="" data-variantid="277781" data-price="20,00">Month - 20,00€</option>
+                    <option value="raider_license_lf" data-productid="220633" ,="" data-variantid="284591" data-price="100,00">Lifetime - 100,00€</option>
+                </select>
+                <button class="btn" type="button" id="buyButton_raider" data-productid="0" data-variantid="0" onclick="window.sellAuthEmbed.checkout(this, { cart: [{ productId: this.getAttribute('data-productid'), variantId: this.getAttribute('data-variantid'), quantity: 1 }], shopId: 122935, modal: true })">    
+                    <span class="fi fi-rr-shopping-cart-add">Buy Now</span>
+                </button>
+            </div>
+        <div class="card">
+            <div class="content">
+                <h4>Nexus Token Joiner V2.2</h4>
+                <h3 id="price_joiner">15,00€</h3>
+                <p><i class="ri-checkbox-circle-line"></i> Requires Discord Tokens</p>
+                <p><i class="ri-checkbox-circle-line"></i> Fast Joining</p>
+                <p><i class="ri-checkbox-circle-line"></i> Solver Support</p>
+            </div>
+            <select id="licenseSelect_joiner">
+                <option value="" disabled="" selected="">Choose option</option>
+                <option value="sourcecode_joiner" data-productid="211130" ,="" data-variantid="263144">Sourcecode - 15,00€</option>
+            </select>
+            <button class="btn" type="button" id="buyButton_joiner" data-productid="0" data-variantid="0" onclick="window.sellAuthEmbed.checkout(this, { cart: [{ productId: this.getAttribute('data-productid'), variantId: this.getAttribute('data-variantid'), quantity: 1 }], shopId: 122935, modal: true })">    
+            <span class="fi fi-rr-shopping-cart-add">Buy Now</span>
+          </button>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h4>Nexus Boost Tool</h4>
+                <h3 id="price_perm">25,00€</h3>
+                <p><i class="ri-checkbox-circle-line"></i> Windows 10 & 11</p>
+                <p><i class="ri-checkbox-circle-line"></i> Most Advanced Boost Tool.</p>
+                <p><i class="ri-checkbox-circle-line"></i> Keeps Getting Updated.</p>
+            </div>
+            <select id="licenseSelect_BoostTool">
+                <option value="" disabled="" selected="">Choose option</option>
+                <option value="BoostTool_exe" disabled="true" ,="" data-sellix-product="">EXE - 10,00€</option>
+                <option value="BoostTool_src" data-productid="211286" ,="" data-variantid="263393">Sourcecode - 25,00€</option>
+           </select>
+           <button class="btn" type="button" id="buyButton_BoostTool" data-productid="0" data-variantid="0" onclick="window.sellAuthEmbed.checkout(this, { cart: [{ productId: this.getAttribute('data-productid'), variantId: this.getAttribute('data-variantid'), quantity: 1 }], shopId: 122935, modal: true })">    
+           <span class="fi fi-rr-shopping-cart-add">Buy Now</span>
+         </button>         
+        </div>
+        <div class="card">
+            <div class="content">
+                <h4>Valorant Triggerbot</h4>
+                <h3 id="price_triggerbot">10,00€</h3>
+                <p><i class="ri-checkbox-circle-line"></i> Windows 10 & 11</p>
+                <p><i class="ri-checkbox-circle-line"></i> Undetected</p>
+                <p><i class="ri-checkbox-circle-line"></i> Fast Reaction</p>
+            </div>
+            <select id="licenseSelect_triggerbot">
+                <option value="" disabled="" selected="">Choose option</option>
+                <option value="lifetime_triggerbot" data-productid="211286" ,="" data-variantid="263144">Lifetime - 10,00€</option>
+            </select>
+            <button class="btn" disabled="true" ,="" id="buyButton_triggerbot"><i class="ri-error-warning-line"></i> Temporarily unavailable</button>
+        </div>
+            <div class="card">
+                <div class="content">
+                    <h4>Nexus Boost Bot</h4>
+                    <h3>-€</h3>
+                    <p> ‎ </p>
+                    <p> ‎ </p>
+                    <p>‎  </p>
+                </div>
+                <button class="btn"><i class="fi fi-rr-clock-seven"></i> Soon..</button>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h4>Nexus Mass DM</h4>
+                    <h3>-€</h3>
+                </div>
+                <button class="btn"><i class="fi fi-rr-clock-seven"></i> Soon..</button>
+            </div>
+        </div>
+        
+
+
+    </section>
+    <section id="About" class="container">
+        <div class="container">
+            <h2 class="header">About Us</h2>
+            <p class="sub-header">We are active with our server discord.gg/nexustools since 2021.</p>
+            <p class="sub-header">vatos.py is the developer of the discord tools  and ndyjan is the developer of the game cheats. </p>
+    
+    <footer class="container">
+        <span class="blur"></span>
+        <span class="blur"></span>
+        <div class="column">
+            <div class="logo">
+                <a href="https://discord.gg/nexustools">
+                    <img src="images/logo.png">
+                </a>
+            </div>
+            <p>discord.gg/nexustools</p>
+            <div class="socials">
+                <a href="https://discord.gg/nexustools" target="_blank"><i class="ri-discord-line"></i></a>
+                <a href="https://github.com/cf-vatos" target="_blank"><i class="ri-github-line"></i></a>
+                <a href="https://www.xyliase.com/" target="_blank"><i class="ri-shake-hands-line"></i></a>
+
+            </div>
+        </div>
+        <div class="column">
+            <h4>Founder</h4>
+            <a class="sub-header" href="https://discord.com/users/1114500227634831440">vatos.py</a>
+            <a class="sub-header" href="https://discord.com/users/1202026685789393026">ndyjan</a>
+        </div>
+        <div class="column">
+            <h4>Tabs</h4>
+            <a href="#home">Home</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#About">About</a>
+        </div>
+    </footer>
+    <div class="copyright">
+        Copyright © 2024 Nexus. All Rights Reserved.
+    </div>
+
+<script src="js/toast.js"></script>
+<script>
+const toasts = new Toasts({
+    width: 300,
+    timing: 'ease',
+    duration: '.5s',
+    dimOld: false,
+    position: 'top-right'
+});
+toasts.push({
+        title: 'Join our discord!',
+        content: 'discord.gg/nexustools',
+        link: 'https://discord.gg/nexustools',
+        linkTarget: '_blank',
+        style: 'dark',
+        closeButton: true,
+        duration: '1s',
+        dismissAfter: '2',
+        });
+
+document.addEventListener("DOMContentLoaded", function() {
+    const licenseSelectJoiner = document.getElementById('licenseSelect_joiner');
+    const licenseSelectRaider = document.getElementById('licenseSelect_raider');
+    const licenseSelectTriggerbot = document.getElementById('licenseSelect_triggerbot');
+    const licenseSelectBoostTool = document.getElementById('licenseSelect_BoostTool');
+    function setSelectedOption(selectElement) {
+        const selectedOption = selectElement.options[selectElement.selectedIndex];
+        selectedOption.setAttribute('selected', 'selected');
+    }
+
+    licenseSelectJoiner.addEventListener('change', function() {
+        toasts.push({
+        title: 'Selected Joiner Option!',
+        content: this.options[this.selectedIndex].innerText,
+        style: 'dark',
+        closeButton: true,
+        duration: '.5s',
+        dismissAfter: '1',
+        });
+        setSelectedOption(licenseSelectJoiner);
+        const selectedOption = this.options[this.selectedIndex];
+        const productId = selectedOption.getAttribute('data-productid');
+        const variantId = selectedOption.getAttribute("data-variantid")
+        document.getElementById('buyButton_joiner').setAttribute('data-productid', productId);
+        document.getElementById('buyButton_joiner').setAttribute('data-variantid', variantId);
+    });
+
+    licenseSelectBoostTool.addEventListener('change', function() {
+        toasts.push({
+        title: 'Selected Boost Tool Option!',
+        content: this.options[this.selectedIndex].innerText,
+        style: 'dark',
+        closeButton: true,
+        duration: '.5s',
+        dismissAfter: '1',
+        });
+        setSelectedOption(licenseSelectBoostTool);
+        const selectedOption = this.options[this.selectedIndex]
+        const productId = selectedOption.getAttribute('data-productid');
+        const variantId = selectedOption.getAttribute("data-variantid")
+        document.getElementById('buyButton_BoostTool').setAttribute('data-productid', productId);
+        document.getElementById('buyButton_BoostTool').setAttribute('data-variantid', variantId);
+    });
+
+    licenseSelectRaider.addEventListener('change', function() {
+        toasts.push({
+        title: 'Selected Raider Option!',
+        content: this.options[this.selectedIndex].innerText,
+        style: 'dark',
+        closeButton: true,
+        duration: '.5s',
+        dismissAfter: '1',
+        });
+        setSelectedOption(licenseSelectRaider);
+        const selectedOption = this.options[this.selectedIndex];
+        const productId = selectedOption.getAttribute('data-productid');
+        const variantId = selectedOption.getAttribute("data-variantid")
+        const price = selectedOption.getAttribute('data-price');
+        document.getElementById('buyButton_raider').setAttribute('data-productid', productId);
+        document.getElementById('buyButton_raider').setAttribute('data-variantid', variantId);
+        document.getElementById('price_raider').innerText = price + '€';
+
+    });
+
+    licenseSelectTriggerbot.addEventListener('change', function() {
+        toasts.push({
+        title: 'Selected Triggerbot Option!',
+        content: this.options[this.selectedIndex].innerText,
+        style: 'dark',
+        closeButton: true,
+        duration: '.5s',
+        dismissAfter: '1',
+        });
+        setSelectedOption(licenseSelectTriggerbot);
+        const selectedOption = this.options[this.selectedIndex];
+        const sellixProduct = selectedOption.getAttribute('data-sellix-product');
+        document.getElementById('buyButton_triggerbot').setAttribute('data-sellix-product', sellixProduct);
+
+        
+    });
+});
+
+
+</script>
+
+
+</div></section></dy></body></html>

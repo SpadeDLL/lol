@@ -1,0 +1,561 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap);
+
+.nav-links, nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links, img, nav {
+  display: flex;
+}
+
+.features .card span, header .content h1, section .header {
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.link a, footer, header, header .image {
+  position: relative;
+}
+
+.btn, .link a::after {
+  background-color: #ff09e6;
+}
+
+img, select {
+  width: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  background-color: #18181b;
+}
+
+nav {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 1rem;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.nav-logo {
+  max-width: 100px;
+}
+
+.nav-links {
+  list-style: none;
+  gap: 3rem;
+}
+
+.features, .pricing, footer, header {
+  display: grid;
+  gap: 2rem;
+}
+
+.link a {
+  padding-bottom: .75rem;
+  color: #fff;
+}
+
+.link a::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0;
+  bottom: 0;
+  left: 0;
+  transition: .3s;
+}
+
+.btn:hover, .features .card span {
+  background-color: #ff09e6;
+}
+
+.link a:hover::after {
+  width: 70%;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.card, .features .card, .pricing .card, select, select option {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+  
+}
+
+.blur {
+  position: absolute;
+  box-shadow: 0 0 1000px 50px #ff09e6;
+  z-index: -100;
+}
+
+header {
+  padding-top: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+header .content h4 {
+  margin-bottom: 1rem;
+  color: #ccc;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+header .content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 4rem;
+}
+
+header .content h1 span {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #fff;
+}
+
+header .content p {
+  margin-bottom: 2rem;
+  color: #ccc;
+}
+
+header .image img {
+  max-width: 600px;
+  margin: auto;
+}
+
+section .header {
+  text-align: center;
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+
+.features {
+  margin-top: 4rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.features .card {
+  padding: 1rem;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  transition: .3s;
+}
+
+.features .card:hover {
+  background-color: #323232;
+  border-color: #fff;
+}
+
+.features .card span {
+  display: inline-block;
+  padding: 2px 9px;
+  font-size: 1.75rem;
+  border-radius: 5px;
+}
+
+.features .card h4 {
+  margin-bottom: .5rem;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.features .card p {
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+
+.features .card a {
+  color: #fff;
+  transition: .3s;
+}
+
+.features .card a:hover {
+  color: #ff09e6;
+}
+
+.sub-header {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  color: #ccc;
+}
+
+.pricing {
+  margin-top: 4rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.pricing .card {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  transition: .3s;
+}
+
+.pricing .card:hover {
+  background-color: #323232;
+  border-color: #c9c9c9;
+}
+
+.pricing .card .content {
+  flex: 1;
+  margin-bottom: 2rem;
+}
+
+.pricing .card h4 {
+  margin-bottom: 1rem;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.pricing .card h3 {
+  color: #fff;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.pricing .card p {
+  color: #fff;
+  margin-bottom: .75rem;
+}
+
+.pricing .card p i {
+  color: #ccc;
+  font-size: 1.2rem;
+  margin-right: .3rem;
+}
+
+.pricing .card button {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+
+.pricing .card button:hover {
+  background-color: #ff09e6;
+  border-color: #ff09e6;
+}
+
+button:disabled {
+  background-color: #d3d3d3; 
+  color: #a9a9a9;  
+  border: 1px solid #d3d3d3; 
+  cursor: not-allowed;  
+}
+
+button:disabled i {
+  color: #a9a9a9; 
+}
+
+
+footer {
+  grid-template-columns: 400px repeat(3, 1fr);
+}
+
+footer .column .logo {
+  max-width: 100px;
+  margin-bottom: 2rem;0
+}
+
+footer .column p {
+  color: #ccc;
+  margin: 2rem;
+}
+
+.card, .copyright, footer .column h4, select, select option {
+  color: #fff;
+}
+
+footer .column .socials {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 7%;
+}
+
+footer .column .socials a {
+  color: #ccc;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  font-size: 1.25rem;
+  border-radius: 100%;
+  transition: .3s;
+}
+
+footer .column .socials a:hover {
+  color: #fff;
+  background-color: #ff09e6;
+  border-color: #ff09e6;
+}
+
+footer .column h4 {
+  margin: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: right;
+}
+
+footer .column > a {
+  display: block;
+  color: #ccc;
+  margin: 1rem;
+  transition: .3s;
+  text-align: right;
+}
+
+footer .column > a:hover {
+  color: #ff09e6;
+}
+
+.copyright {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+  font-size: .8rem;
+  text-align: center;
+}
+
+@media (width < 900px) {
+  .nav-links {
+    display: none;
+  }
+
+  header {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  header .image {
+    grid-area: 1/1/2/2;
+  }
+
+  .features, .pricing {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    width: 100%;
+    margin-left: 7%;
+  }
+
+  footer {
+    grid-template-columns: 1fr 200px;
+  }
+}
+
+@media (width < 600px) {
+  header .image: :before {
+    display: none;
+  }
+
+  .container {
+    overflow-x: hidden;
+  }
+
+  .features, .pricing {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+
+  footer {
+    grid-template-columns: 1fr 150px;
+  }
+}
+
+@media (width < 600px) {
+  header .image: :before {
+    display: none;
+  }
+
+  .features, .pricing {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+
+  footer {
+    grid-template-columns: 1fr 150px;
+  }
+}
+
+@media (width < 600px) {
+  header .image: :before {
+    display: none;
+  }
+
+  .pricing, .card button {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    width: 270px;
+  }
+
+  footer {
+    grid-template-columns: 1fr 150px;
+  }
+}
+
+@media (width < 600px) {
+  header .image: :before {
+    display: none;
+  }
+
+  .column {
+    visibility: hidden;
+  }
+
+  .footer container {
+    visibility: hidden;
+  }
+  .footer {
+    visibility: hidden;
+  }
+
+  .column p {
+    visibility: hidden;
+  }
+
+  .column socials a {
+    visibility: hidden;
+  }
+
+  .column .logo {
+    visibility: hidden;
+  }
+
+  .column h4 {
+    visibility: hidden;
+  }
+
+  .column a {
+    visibility: hidden;
+  }
+  footer {
+    visibility: hidden;
+    grid-template-columns: 1fr 150px;
+  }
+}
+.card {
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .1);
+}
+
+select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: -10px;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(54, 55, 62);
+  border: 0;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #545765;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ff09e6d1;
+}
+
+.image img {
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(255, 0, 255, 0.7);
+  animation: floatAnimation 2s ease-in-out infinite alternate;
+}
+
+@keyframes floatAnimation {
+  0% {
+    transform: translateY();
+  }
+
+  100% {
+    transform: translateY(-15px);
+  }
+}
+
+.card .content h4 {
+  color: #ff09e6d1;
+}
+
+body {
+  overflow-x: hidden; 
+}
+
+@media screen and (max-width: 600px) {
+  html, body {
+    overflow-x: hidden; 
+  }
+}
+
+select:hover {
+  border-color: #ff09e6d1; 
+}
